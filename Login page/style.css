@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+body{
+    margin-top: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background:linear-gradient(to right,#ec21ba,#0faa6f);
+}
+form{
+    width: 611px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.06);
+    box-shadow: 0 8px 32px 0 rgba(34, 35, 36, 0.37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(131, 120, 120, 0.3);
+    border-top: 1px solid rgba(110, 101, 101, 0.3);
+}
+h1{
+    font-size: 50px;
+    text-align:center;
+    color: white;
+    text-shadow: 2px 2px 4px  rgba(0,0,0,.2);
+    letter-spacing: 5px;
+    margin-bottom: 7%;
+    opacity: 10;
+}
+lable{
+    font-size: 20px;
+    color: white;
+    margin-left: 10%;
+    opacity: .8;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    font-family: ui-sans-serif;
+    top: -15%;
+}
+input{
+    width: 80%;
+    margin: 2% auto;
+    margin-bottom: 8%;
+    position: relative;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    opacity: .8;
+    left: 10%;
+    cursor:auto;
+}
+button{
+    width: 30%;
+    margin:3% auto;
+    color: white;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: .7;
+    background: rgba(255,255,255,0.06);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255,255,255,0.2);
+    box-shadow: 0px 0px 20px 4px rgba(31,38,135,.37);
+    border-top:rgba(0, 17, 255, 0.37) ;
+    transition-duration: 1s;
+   
+   
+}
+a{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    opacity: .7;
+    margin-bottom: 10%;
+}
+.forgetpassword{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+    transition-duration: 1s;
+    display:inline;
+    padding: 10px;
+
+}
+img{
+ width: 15%;
+ height: 15%;
+ float: right;
+ opacity: .5;
+ top: 25px;
+
+}
+
+p{
+color: rgb(255, 255, 255);
+font-family: emoji;
+margin-left: 14%;
+margin-top: -12%;
+position: relative;
+top: 4px
+}
+
+::placeholder
+{
+color: #aaaaaa;
+font-size: 15px;
+font-family:'Courier New', Courier, monospace;
+}
+
+input:hover::placeholder{
+   
+    color: rgb(255, 255, 255);
+}
+
+button:hover{
+   
+    box-shadow: 0px 0px 20px 4px rgba(0, 17, 255, 0.37);
+    box-shadow: 0px 0px 20px 4px rgba(13, 224, 252, 0.979);
+    box-shadow: 0px 0px 20px 4px rgba(13, 204, 252, 0.945);
+    scale: 1.2;
+}
+
+a:hover{
+    color: black;
+    scale: 1.2;
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:767px) {
+
+    
+    
+}
