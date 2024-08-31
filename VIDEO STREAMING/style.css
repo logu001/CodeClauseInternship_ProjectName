@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#upload-section, #video-gallery {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #0f6fbe;
+    text-align: center;
+    border-bottom: 1px solid rgba(5, 21, 239, 0.37);
+    padding: 10px;
+    
+}
+
+#upload-form{
+    border-style: solid;
+    border-color: rgb(4, 190, 253);
+    border-width: 7px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:  0px 0px 20px 4px rgba(5, 21, 239, 0.37);
+    border-top:rgba(0.5, 17, 255, 0.37) ;
+    opacity: .6;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    display: inline-block;
+    margin: 10px 0;
+    justify-content: center;
+}
+
+#video-title{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgba(5, 21, 239, 0.37);
+    padding: 10px;
+}
+
+#privacy{
+    padding: 10px;
+}
+
+#video-file{
+    padding-top: 10px ;
+}
